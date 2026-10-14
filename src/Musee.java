@@ -19,5 +19,6 @@ public class Musee {
     public List<Salle> getSalles(){
         return Collections.unmodifiableList(salles);
     }
+    public String getNom(){return this.nom;}
 }
 

@@ -19,6 +19,8 @@ public class Salle{
     public List<Oeuvre> getOeuvre(){
         return Collections.unmodifiableList(oeuvres);
     }
-
+    public String getNom(){ return this.nom;}
+    public int getEtage(){return this.etage;}
+    public List<Oeuvre> getOeuvres(){return this.oeuvres;}
 }
 

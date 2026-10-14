@@ -19,4 +19,5 @@ public class Oeuvre{
     public String getNom() {return this.nom;}
     public int getAnnee() {return this.annee;}
     public Artiste getArtiste() {return this.artiste;}
+
 }
